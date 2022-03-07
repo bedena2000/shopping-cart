@@ -17,20 +17,20 @@ import MotherBoardCard from './MotherBoardCard.jsx';
 const VideoCards = () => {
   return (
     <div className="videocard shop-page-items-board">
-      <MotherBoardCard imageUrl={motherboard1} imageName='motherboard1' itemPath='/videocard-1'/>
-      <MotherBoardCard imageUrl={motherboard2} imageName='motherboard2' itemPath='/videocard-2'/>
-      <MotherBoardCard imageUrl={motherboard3} imageName='motherboard3' itemPath='/videocard-3'/>
-      <MotherBoardCard imageUrl={motherboard4} imageName='motherboard4' itemPath='/videocard-4'/>
+      <MotherBoardCard imageUrl={motherboard1} imageName='videocard-1' itemPath='/videocard-1'/>
+      <MotherBoardCard imageUrl={motherboard2} imageName='videocard-2' itemPath='/videocard-2'/>
+      <MotherBoardCard imageUrl={motherboard3} imageName='videocard-3' itemPath='/videocard-3'/>
+      <MotherBoardCard imageUrl={motherboard4} imageName='videocard-4' itemPath='/videocard-4'/>
       
-      <MotherBoardCard imageUrl={motherboard5} imageName='motherboard5' itemPath='/videocard-5'/>
-      <MotherBoardCard imageUrl={motherboard6} imageName='motherboard6' itemPath='/videocard-6'/>
-      <MotherBoardCard imageUrl={motherboard7} imageName='motherboard7' itemPath='/videocard-7'/>
-      <MotherBoardCard imageUrl={motherboard8} imageName='motherboard8' itemPath='/videocard-8'/>
+      <MotherBoardCard imageUrl={motherboard5} imageName='videocard-5' itemPath='/videocard-5'/>
+      <MotherBoardCard imageUrl={motherboard6} imageName='videocard-6' itemPath='/videocard-6'/>
+      <MotherBoardCard imageUrl={motherboard7} imageName='videocard-7' itemPath='/videocard-7'/>
+      <MotherBoardCard imageUrl={motherboard8} imageName='videocard-8' itemPath='/videocard-8'/>
       
-      <MotherBoardCard imageUrl={motherboard9} imageName='motherboard9' itemPath='/videocard-9'/>
-      <MotherBoardCard imageUrl={motherboard10} imageName='motherboard10' itemPath='/videocard-10'/>
-      <MotherBoardCard imageUrl={motherboard11} imageName='motherboard11' itemPath='/videocard-11'/>
-      <MotherBoardCard imageUrl={motherboard12} imageName='motherboard12' itemPath='/videocard-12'/>
+      <MotherBoardCard imageUrl={motherboard9} imageName='videocard-9' itemPath='/videocard-9'/>
+      <MotherBoardCard imageUrl={motherboard10} imageName='videocard-10' itemPath='/videocard-10'/>
+      <MotherBoardCard imageUrl={motherboard11} imageName='videocard-11' itemPath='/videocard-11'/>
+      <MotherBoardCard imageUrl={motherboard12} imageName='videocard-12' itemPath='/videocard-12'/>
     </div>
   )
 };

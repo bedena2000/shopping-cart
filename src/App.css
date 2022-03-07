@@ -172,3 +172,115 @@ a {
 .active {
   color: red;
 }
+
+/* Card Item */
+
+.cart {
+  position: relative;
+}
+
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.card-item-src {
+  width: 40%;
+}
+
+.card-item-info {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-item-name {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.card-item-cost {
+  font-size: 24px;
+}
+
+.card-item-button {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: crimson;
+  color: white;
+  font-size: 24px;
+  border: 1px solid crimson;
+  outline: none;
+  transition: background-color .3s ease;
+  cursor: pointer;
+}
+
+.card-item-button:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+.cart {
+  padding-top: 40px;
+}
+
+.cart-item-wrapper {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.cost-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-item-src {
+  width: 100px;
+  height: 100px;
+}
+
+.cart-item-cost {
+  margin-right: 10px;
+}
+
+.cost-plus {
+  margin-right: 10px;  
+}
+
+.cost-plus, .cost-minus {
+  width: 30px;
+  border: 1px solid crimson;
+  border-radius: 2px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.delete-btn {
+  width: 60px;
+  border: 1px solid crimson;
+  border-radius: 2px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.cost-plus:hover, .cost-minus:hover, .delete-btn:hover {
+  background-color: antiquewhite;
+  color: black;
+}

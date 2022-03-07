@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 import About from '../About/About.jsx';
 import MotherBoard from './MotherBoard.jsx';
@@ -10,25 +10,31 @@ import Sdd from './Sdd.jsx';
 import Cases from './Cases.jsx';
 import Coolers from './Coolers.jsx';
 import ShopLeft from './ShopLeft.jsx';
+import { NavLink } from 'react-router-dom';
+import cartLogo from '../../img/main/cart-svgrepo-com.svg';
 
 const Shop = () => {
   return (
+    <>
+    
     <div className="shop-page">
       <div className="container shop-page-wrapper">
          <ShopLeft />
-         <Routes>
+         {/* <Routes>
            <Route path="/" element={<MotherBoard />}/>
-           <Route path="motherboard" element={<MotherBoard />}/>
+           <Route path="motherboard" element={<MotherBoard />}>
            <Route path="videocards" element={<VideoCards />}/>
            <Route path="processors" element={<Processors />}/>
            <Route path="vinchester-hdd" element={<Hdd />}/>
            <Route path="vinchester-ssd" element={<Sdd />}/>
            <Route path="cases" element={<Cases />}/>
            <Route path="coolers" element={<Coolers />}/>
-         </Routes>
+         </Routes> */}
+         <Outlet />
       </div>
       
     </div>
+    </>
   )
 };
 

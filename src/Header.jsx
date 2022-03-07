@@ -1,9 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link, Outlet } from 'react-router-dom';
 import cartLogo from './img/main/cart-svgrepo-com.svg';
 
 const Header = () => {
   return (
+    <>
     <div className="header">
       <div className="container header-wrapper">
         <h2 className="header-title">fakeshop</h2>
@@ -17,6 +18,7 @@ const Header = () => {
         </div>  
       </div>  
     </div>
+    </>
   )
 };
 

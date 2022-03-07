@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 
 import motherboard1 from '../../img/motherboards/pexels-alessandro-oliverio-1472443.jpg';
